@@ -1,0 +1,17 @@
+h1{
+    font-size: 1.8em;
+}
+h2{
+    font-size: 1.5em;
+}
+h1{
+    font-size: 1.4em;
+}
+h1, h2, h3{
+    font-family: Arial;
+}
+
+p1, p2, p3{
+    font-size: 1.2em;
+    font-family: Times New Roman;
+}
