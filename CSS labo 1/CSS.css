@@ -8,10 +8,23 @@ h1{
     font-size: 1.4em;
 }
 h1, h2, h3{
-    font-family: Arial;
+    font-family: "Arial", sans-serif;
 }
 
-p1, p2, p3{
+p1{
     font-size: 1.2em;
-    font-family: Times New Roman;
+    font-family: "Times New Roman", sans-serif;
+    color: red;
+}
+
+p2{
+    font-size: 1.2em;
+    font-family: "Times New Roman", sans-serif;
+    color: green;
+}
+
+p3{
+    font-size: 1.2em;
+    font-family: "Times New Roman", sans-serif;
+    color: blue;
 }
