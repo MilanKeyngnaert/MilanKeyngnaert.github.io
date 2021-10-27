@@ -10,13 +10,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1zj3Ik5ZCbYZm40Rl8M4A1cpPAY" />
   <component name="ProjectViewState">
@@ -39,6 +47,8 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Milan\AppData\Local\GitHubDesktop\app-2.9.4\MilanKeyngnaert.github.io\HTML" />
+      <recent name="C:\Users\Milan\AppData\Local\GitHubDesktop\app-2.9.4\MilanKeyngnaert.github.io\HTML\Personal Home Page" />
+      <recent name="C:\Users\Milan\AppData\Local\GitHubDesktop\app-2.9.4\MilanKeyngnaert.github.io\CSS labo 1" />
       <recent name="C:\Users\Milan\AppData\Local\GitHubDesktop\app-2.9.4\MilanKeyngnaert.github.io" />
       <recent name="C:\Users\Milan\AppData\Local\GitHubDesktop\app-2.9.4\MilanKeyngnaert.github.io\week 4" />
     </key>
@@ -69,6 +79,8 @@
       <workItem from="1635256834826" duration="60000" />
       <workItem from="1635271846010" duration="190000" />
       <workItem from="1635335656507" duration="306000" />
+      <workItem from="1635337020649" duration="6109000" />
+      <workItem from="1635345637902" duration="1528000" />
     </task>
     <servers />
   </component>
