@@ -28,12 +28,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HTML" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Milan\AppData\Local\GitHubDesktop\app-2.9.4\MilanKeyngnaert.github.io\HTML" />
       <recent name="C:\Users\Milan\AppData\Local\GitHubDesktop\app-2.9.4\MilanKeyngnaert.github.io" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -66,6 +67,8 @@
       <workItem from="1635005951247" duration="9000" />
       <workItem from="1635256361700" duration="274000" />
       <workItem from="1635256834826" duration="60000" />
+      <workItem from="1635271846010" duration="190000" />
+      <workItem from="1635335656507" duration="306000" />
     </task>
     <servers />
   </component>
