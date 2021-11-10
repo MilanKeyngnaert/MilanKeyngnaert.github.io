@@ -1,0 +1,46 @@
+html{
+    font-family: Verdana;
+    background-image: url("images/img.png");
+    background-repeat: no-repeat;
+}
+
+body{
+    width: 600px;
+    margin: auto;
+    background-color: #FFFFFF;
+    padding-bottom: 25px;
+    margin-bottom: 50px;
+}
+
+h1{
+    color: #FFFFFF;
+    background-color: #404040;
+    margin-bottom: 0;
+}
+
+section{
+    background-color: grey;
+    margin-top: 0;
+}
+
+#Vivesfoto{
+    background-image: url("images/Vives.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+img{
+    border: 3px solid #000000;
+}
+
+#profielfoto{
+    width: 50%;
+    margin-left: 150px;
+}
+
+#JohnWick{
+    width: 50%;
+    margin-left: 162px;
+}
+
