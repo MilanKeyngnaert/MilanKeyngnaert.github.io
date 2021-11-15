@@ -1,0 +1,30 @@
+table{
+    border: #000000 solid 3px;
+}
+
+h1{
+    color: rgb(200, 190, 240);
+    background-color: rgb(35, 37, 70);
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+td, th{
+    outline: #000000 dotted 1px;
+}
+
+#vrijeDag{
+    background-color: rgb(250, 120, 120);
+}
+
+td:first-child, td:last-child{
+    background-color: rgb(255, 220, 220);
+}
+
+td:first-child.May, td:last-child.July{
+    background: gray;
+}
+
+.July{
+    background: gray;
+}
