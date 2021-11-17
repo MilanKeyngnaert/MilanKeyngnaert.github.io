@@ -1,0 +1,35 @@
+body{
+    width: 95%;
+    margin: auto;
+    font-family: "Verdana", sans-serif;
+    font-size: 1.2em;
+}
+
+header p{
+    text-align: center;
+}
+
+body > article{
+    width: 30%;
+    float: right;
+    box-sizing: border-box;
+    border: #a7cece solid 1px;
+    background-image: url("images/cocktail.gif");
+}
+
+body > article > h1, body > article > p{
+    text-align: center;
+    color: black;
+}
+
+body > article > h2{
+    text-align: center;
+    color: red;
+}
+
+body section article{
+    width: 70%;
+    float: left;
+    box-sizing: border-box;
+}
+
