@@ -15,21 +15,69 @@ body > article{
     box-sizing: border-box;
     border: #a7cece solid 1px;
     background-image: url("images/cocktail.gif");
+    background-repeat: repeat-x;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-body > article > h1, body > article > p{
+h1{
+    color: rgb(000 127 127);/*in de opgave werd het kleur aangegeven als: RGB 007e7e, dit is waarschijnlijk in hexadecimaal, ik heb dit dus omgerekend naar decimaal*/
+    font-size: 150%;
+}
+h2{
+    color: rgb(000 127 127);/*in de opgave werd het kleur aangegeven als: RGB 007e7e, dit is waarschijnlijk in hexadecimaal, ik heb dit dus omgerekend naar decimaal*/
+    font-size: 130%;
+}
+
+body > article > h1, body > article > p, body > article > h2{
     text-align: center;
     color: black;
 }
 
-body > article > h2{
-    text-align: center;
-    color: red;
+body > article > h1 + p + h2{
+     color: deeppink;
+}
+
+body > article > h1 + p + h2 + p + p + h2{
+    color: hotpink;
+}
+
+body > article > h1 + p + h2 + p + p + h2 + p + p + h2{
+    color: pink;
 }
 
 body section article{
     width: 70%;
     float: left;
     box-sizing: border-box;
+}
+
+body > article a:hover{
+    background-color: saddlebrown;
+}
+
+#guarantee{
+    background-image: url("images/background.gif");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 4em;
+    margin: 30px;
+    padding: 20px 20px 20px 75px;
+    color: rgb(068 068 068);/*in de opgave werd het kleur aangegeven als: RGB 444444, dit is waarschijnlijk in hexadecimaal, ik heb dit dus omgerekend naar decimaal*/
+    background-color: rgb(167 207 207);/*in de opgave werd het kleur aangegeven als: RGB a7cece, dit is waarschijnlijk in hexadecimaal, ik heb dit dus omgerekend naar decimaal*/
+    border: white dotted 3px;
+}
+
+ul li:first-child {
+    font-style: italic;
+}
+
+span{
+    font-style: normal;
+    font-weight: bold;
+}
+
+footer{
+    font-size: 0.6em;
 }
 
