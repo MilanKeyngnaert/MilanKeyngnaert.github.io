@@ -1,0 +1,141 @@
+body{
+    width: 960px;
+    margin: auto;
+    background-image: url("fotos/pagebackground.png");
+    background-position: center;
+    font-family: Arial Helvetica sans-serif;
+}
+
+header{
+    height: 200px;
+    background-image: url("fotos/bgsky3.jpg");
+    text-align: center;
+    color: darkblue;
+}
+
+header > img{
+    margin: -151.6px 90px 60px 171px;
+    display: inline-block;
+    float: right;
+    position: absolute;
+    z-index: 1;
+}
+
+header p{
+    font-size: 240%;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+header p:first-child{
+    font-size: 300%;
+    font-weight: bold;
+    font-style: italic;
+}
+
+aside{
+    width: 250px;
+    background-color: #dddddd;
+    border: #999999 solid 1px;
+    display: inline-block;
+    float: right;
+}
+
+aside p{
+    color: #666666;
+    font-size: 90%;
+    margin: 0px 10px 0px 10px;
+}
+
+aside h3{
+    color: white;
+    background-color: blue;
+    font-size: 120%;
+    text-align: center;
+}
+
+main{
+    width: 700px;
+    margin: 20px 10px 0px 0px;
+    height: 865.6px;
+}
+
+main > figure{
+    display: inline-block;
+    float: left;
+    margin: 0px 20px 0px 20px;
+}
+
+main > article{
+    background-color: white;
+    color: black;
+    text-align: justify;
+    margin: 0px 0px 0px 0px;
+    width: 560px;
+    display: inline-block;
+    float: right;
+}
+
+article > p{
+    margin: 0px 30px 20px 0px;
+}
+
+article > p > span{
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+main > section{
+    display: inline-block;
+    background-color: #999999;
+    padding-top: 20px;
+}
+
+main > section > figure{
+    display: inline;
+    float: left;
+    background-color: white;
+    width: 180px;
+    height: 180px;
+    padding: 10px;
+    outline: white dotted 1px;
+    margin: 0px 0px 20px 20px;
+}
+
+div{
+    background-color: #666666;
+    color: white;
+    line-height: 2em;
+}
+
+div > section{
+    margin: 0px 0px 0px 120px;
+    width: min-content;
+    display: inline-block;
+}
+
+section > ul{
+    margin: 0px;
+    width: 154px;
+}
+
+footer{
+    text-align: center;
+    color: black;
+    background-color: white;
+    width: 900px;
+}
+
+footer > p{
+    width: 900px;
+    margin-left: 30px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: red;
+}

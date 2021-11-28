@@ -1,0 +1,26 @@
+body{
+    font-size: 1.25em;
+    max-width: 45%;
+    margin: auto;
+}
+
+article{
+    border: black solid 1px;
+    margin: 10px;
+    padding: 10px;
+}
+
+article:nth-child(odd) img{
+    float: left;
+}
+
+article:nth-child(even) img{
+    float: right;
+}
+
+img{
+    margin: -10px 10px 10px 10px;
+    display: inline-block;
+    height: auto;
+    max-width: 18%;
+}
