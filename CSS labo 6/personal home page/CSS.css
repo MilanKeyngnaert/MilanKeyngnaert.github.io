@@ -1,0 +1,147 @@
+html{
+    font-family: Verdana;
+}
+
+section{
+    background-color: grey;
+    margin-top: 0;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#Vivesfoto{
+    background-image: url("images/Vives.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.afbeelding{
+    border: 3px solid #000000;
+    max-width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.afbeelding2{
+    border: 2px solid #000000;
+    max-width: 100%;
+    max-height: 132px;
+    display: block;
+}
+
+.part-holder{
+    background-color: #CCCCCC;
+    padding: 0px;
+    border: 5px solid #FFFFFF;
+}
+
+.link{
+
+}
+
+.link:hover{
+    color: red;
+}
+
+.films{
+    margin: auto;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: left;
+    width: 90%;
+    margin: auto;
+}
+
+table {
+    font: normal 12px/150% Verdana, Arial, Helvetica, sans-serif;
+    background: #fff;
+    overflow: hidden;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+}
+
+table td, table th {
+    padding: 10px 10px;
+}
+
+table thead th {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #FFFFFF), color-stop(1, #FFFFFF));
+    background: -moz-linear-gradient(center top, #FFFFFF 5%, #FFFFFF 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#FFFFFF');
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+    border-left: 1px solid #000000;
+}
+
+table thead th:first-child {
+    border: none;
+}
+
+table tbody td {
+    color: #000000;
+    border-left: 1px solid #FFFFFF;
+    font-size: 12px;
+    border-bottom: 1px solid #FFFFFF;
+    font-weight: normal;
+    border-left: 1px solid #000000;
+}
+
+table tbody .alt td {
+    background: #FFFFFF;
+    color: #000000;
+}
+
+table tbody td:first-child {
+    border-left: none;
+}
+
+table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+table tfoot td div {
+    border-top: 1px solid #000000;
+    background: #FFFFFF;
+}
+
+table tfoot td {
+    padding: 0;
+    font-size: 11px
+}
+
+table tfoot td div {
+    padding: 2px;
+}
+
+table tfoot td ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+table tfoot li {
+    display: inline;
+}
+
+table tfoot li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 2px 8px;
+    margin: 1px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #000000), color-stop(1, #000000));
+    background: -moz-linear-gradient(center top, #000000 5%, #000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000');
+    background-color: #000000;
+}

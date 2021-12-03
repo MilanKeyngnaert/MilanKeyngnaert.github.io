@@ -10,8 +10,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -36,22 +36,24 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/CSS labo 3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CSS labo 6/personal home page/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Milan\AppData\Local\GitHubDesktop\app-2.9.4\MilanKeyngnaert.github.io\CSS labo 6\personal home page\images" />
+      <recent name="C:\Users\Milan\AppData\Local\GitHubDesktop\app-2.9.4\MilanKeyngnaert.github.io\CSS labo 6\personal home page" />
       <recent name="C:\Users\Milan\AppData\Local\GitHubDesktop\app-2.9.4\MilanKeyngnaert.github.io\CSS labo 3" />
       <recent name="C:\Users\Milan\AppData\Local\GitHubDesktop\app-2.9.4\MilanKeyngnaert.github.io\HTML" />
       <recent name="C:\Users\Milan\AppData\Local\GitHubDesktop\app-2.9.4\MilanKeyngnaert.github.io" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Milan\AppData\Local\GitHubDesktop\app-2.9.4\MilanKeyngnaert.github.io\CSS labo 6\personal home page\images" />
+      <recent name="C:\Users\Milan\AppData\Local\GitHubDesktop\app-2.9.4\MilanKeyngnaert.github.io\CSS labo 6" />
       <recent name="C:\Users\Milan\AppData\Local\GitHubDesktop\app-2.9.4\MilanKeyngnaert.github.io\CSS labo 5" />
       <recent name="C:\Users\Milan\AppData\Local\GitHubDesktop\app-2.9.4\MilanKeyngnaert.github.io\CSS labo 5\positioneren_image_begin" />
       <recent name="C:\Users\Milan\AppData\Local\GitHubDesktop\app-2.9.4\MilanKeyngnaert.github.io\CSS labo 4" />
-      <recent name="C:\Users\Milan\AppData\Local\GitHubDesktop\app-2.9.4\MilanKeyngnaert.github.io\CSS labo 4\opdracht 1" />
-      <recent name="C:\Users\Milan\AppData\Local\GitHubDesktop\app-2.9.4\MilanKeyngnaert.github.io\CSS labo 3\opdracht 3" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -111,6 +113,13 @@
       <workItem from="1637856202071" duration="614000" />
       <workItem from="1638016845070" duration="8125000" />
       <workItem from="1638098572432" duration="297000" />
+      <workItem from="1638362321203" duration="3777000" />
+      <workItem from="1638366149445" duration="635000" />
+      <workItem from="1638366811311" duration="3573000" />
+      <workItem from="1638370626177" duration="164000" />
+      <workItem from="1638373193135" duration="8000" />
+      <workItem from="1638373451154" duration="161000" />
+      <workItem from="1638562318799" duration="3371000" />
     </task>
     <servers />
   </component>
