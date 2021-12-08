@@ -1,0 +1,124 @@
+body{
+    text-align: center;
+}
+
+.block.block1{
+    background-color: rgb(182 54 106);
+}
+.block.block2{
+    background-color: rgb(114 110 166);
+}
+.block.block3{
+    background-color: rgb(125 141 194);
+}
+.block.block4{
+    background-color: rgb(161 210 218);
+}
+
+@media only screen and (min-width : 320px){
+    main{
+        background-color: white;
+        display: grid;
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: auto auto auto;
+    }
+
+    main .block{
+        margin:20px;
+        padding:20px;
+        color: white;
+    }
+
+    .block.block1{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row: 2;
+    }
+    .block.block2{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row: 1;
+    }
+    .block.block3{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row: 3;
+    }
+    .block.block4{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row: 4;
+    }
+}
+
+
+@media only screen and (min-width : 772px){
+    main{
+        background-color: white;
+        display: grid;
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: auto auto auto;
+    }
+
+    main .block{
+        margin:20px;
+        padding:20px;
+        color: white;
+    }
+
+    .block.block1{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row: 1;
+    }
+    .block.block2{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row: 3;
+    }
+    .block.block3{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row: 2;
+    }
+    .block.block4{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row: 4;
+    }
+}
+
+@media only screen and (min-width : 990px){
+    main{
+        background-color: white;
+        display: grid;
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: auto auto auto;
+    }
+
+    main .block{
+        margin:20px;
+        padding:20px;
+        color: white;
+    }
+
+    .block.block1{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row: 1;
+    }
+    .block.block2{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row: 2;
+    }
+    .block.block3{
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .block.block4{
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row: 3;
+    }
+}
