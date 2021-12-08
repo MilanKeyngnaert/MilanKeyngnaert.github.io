@@ -1,5 +1,3 @@
-/*het verkleinen en vergroten moet op het venster zelf gebeuren, niet met de devtools*/
-
 section{
     display: grid;
     grid-template-rows: auto auto auto auto;
