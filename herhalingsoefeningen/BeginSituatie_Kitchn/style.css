@@ -1,0 +1,190 @@
+/** Volgende CSS gaan we ze geven **/
+*{
+    margin: 0px;
+    font-family: Helvetica Arial sans-serif;
+}
+
+.respimg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+body > header{
+    margin: auto;
+    width: 600px;
+}
+
+header > img{
+    height: 50px;
+}
+
+body > div{
+    border-bottom: #ebe8e8 solid 1px;
+    padding: 0% 100% 0% 0%;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    padding: 10px 0px;
+    text-align: center;
+    margin: auto;
+    width: 600px;
+    text-transform: uppercase;
+}
+
+nav > a{
+    border-right: #ebe8e8 solid 1px;
+    color: #5b4746;
+    font-size: 13px;
+    border-bottom: transparent solid 2px;
+    text-decoration: none;
+}
+
+nav > a:hover{
+     border-bottom: #fff100 solid 2px;
+ }
+
+nav > a:last-child{
+    border-right: none;
+}
+
+main > header{
+    background-image: url("images/headerimage.jpg");
+    background-size: 100%;
+    height: 500px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: #8D99AE 2px 2px;
+    vertical-align: middle;
+    line-height: 500px;
+}
+
+h1{
+    margin-top: 50px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: black solid 2px;
+}
+
+main > main > article{
+    width: 600px;
+    display: grid;
+    grid-template-columns: auto 15px auto;
+    grid-template-rows: 15px auto 15px auto 15px auto;
+    margin: auto;
+}
+
+.l{
+    grid-column: 1;
+    border-top: #ddd solid 1px;
+    margin-right: 1.5em;
+    padding-top: 1em;
+}
+
+.r{
+    grid-column: 3;
+}
+
+.r2{
+    grid-row: 2;
+}
+
+.r4{
+    grid-row: 4;
+}
+
+.r6{
+    grid-row: 6;
+}
+
+article > div > span{
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color: #ff4d56;
+    letter-spacing: 1px;
+}
+
+h2 > a{
+    text-decoration: none;
+    color: black;
+}
+
+article > div > p{
+    color: #666;
+    line-height: 2;
+}
+
+article > div > p > span:first-child{
+    padding-right: 10px;
+    border-right: #ebe8e8 solid 1px;
+    font-style: italic;
+    color: black;
+}
+
+article > div > p > span:last-child{
+    padding-left: 10px;
+    color: #666;
+}
+
+aside > section > div > div{
+    margin-bottom: 25px;
+}
+
+aside > section{
+    width: 600px;
+    margin: 15px auto auto auto;
+}
+
+aside{
+    margin: auto;
+}
+
+.noMargin{
+    margin-bottom: 0px;
+}
+
+#left{
+    float: left;
+    text-align: right;
+    width: 50%;
+    border-top: #ebe8e8 solid 1px;
+    line-height: 2em;
+    margin: 20px 0px;
+    padding-right: 10px;
+}
+
+#right{
+    color: white;
+    background-color: black;
+    float: right;
+    text-align: left;
+    width: 50%;
+    border-top: #ebe8e8 solid 1px;
+    line-height: 2em;
+    margin: 20px 0px;
+    padding-left: 10px;
+}
+
+
+
+@media only screen and (min-width : 770px){
+    body > header, nav, main > main > article, h1, aside > section{
+        width: 750px;
+    }
+}
+
+@media only screen and (min-width : 800px){
+    main > header{
+        font-size: 5em;
+    }
+}
+
+@media only screen and (min-width : 1000px){
+    body > header, nav, main > main > article, h1, aside > section{
+        width: 980px;
+    }
+}
