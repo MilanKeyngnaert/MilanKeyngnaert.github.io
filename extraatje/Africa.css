@@ -1,0 +1,105 @@
+html{
+    height: 100%;
+}
+
+body{
+    width: 970px;
+    margin: auto;
+    background-image: url("source_Out_of_Africa/stripverloopokapi.jpg");
+    border: black solid 3px;
+}
+
+header{
+    background-image: url("source_Out_of_Africa/headerokapi.jpg");
+    height: 180px;
+    width: 100%;
+    text-align: center;
+}
+
+nav{
+    background-color: rgb(236 234 222);
+    width: 970px;
+    display: grid;
+    grid-template-columns: 11% 13% 13% 13% 13% 13% 13% 11%;
+    padding: 25px 0px;
+}
+
+nav > div{
+    text-align: center;
+    vertical-align: middle;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    background-color: rgb(236 234 222);
+    display: grid;
+    grid-template-columns: 10px 590px 10px 350px 10px;
+    grid-template-rows: auto auto auto;
+    grid-row-gap: 10px;
+}
+
+.l{
+    grid-column: 2;
+}
+
+.r{
+    grid-column: 4;
+}
+
+.r1{
+    grid-row: 1;
+}
+
+.r2{
+    grid-row: 2;
+}
+
+.r3{
+    grid-row: 3;
+}
+
+.r1-2{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+h1{
+    font-size: large;
+}
+
+#noMarginTop{
+    margin-top: 0px;
+}
+
+section > img{
+    border: black solid 2px;
+}
+
+.float{
+    margin: 9px;
+    float: left;
+}
+
+.kader{
+    border: black solid 2px;
+    margin: 10px 0px;
+    padding: 10px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+footer{
+    height: 10%;
+    background-color: rgb(236 234 222);
+    border-top: black solid 5px;
+    padding-bottom: 25px;
+    text-align: right;
+}
+
+footer > p{
+    margin-right: 20px;
+}
