@@ -12,6 +12,7 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -36,7 +37,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/herhalingsoefeningen/Opdracht 2/begin_cocktail_bar" />
+    <property name="last_opened_file_path" value="D:/Testen" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -49,11 +50,11 @@
       <recent name="C:\Users\Milan\AppData\Local\GitHubDesktop\app-2.9.4\MilanKeyngnaert.github.io\CSS labo 6\personal home page" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Milan\AppData\Local\GitHubDesktop\app-2.9.4\MilanKeyngnaert.github.io\Javascript labo 1" />
       <recent name="C:\Users\Milan\AppData\Local\GitHubDesktop\app-2.9.4\MilanKeyngnaert.github.io\extraatje" />
       <recent name="C:\Users\Milan\AppData\Local\GitHubDesktop\app-2.9.4\MilanKeyngnaert.github.io\CSS labo 7" />
       <recent name="C:\Users\Milan\AppData\Local\GitHubDesktop\app-2.9.4\MilanKeyngnaert.github.io\CSS labo 6\personal home page\images" />
       <recent name="C:\Users\Milan\AppData\Local\GitHubDesktop\app-2.9.4\MilanKeyngnaert.github.io\CSS labo 6" />
-      <recent name="C:\Users\Milan\AppData\Local\GitHubDesktop\app-2.9.4\MilanKeyngnaert.github.io\CSS labo 5" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -133,6 +134,14 @@
       <workItem from="1639823134246" duration="1312000" />
       <workItem from="1640173934923" duration="7986000" />
       <workItem from="1640183632927" duration="116000" />
+      <workItem from="1640192769305" duration="103000" />
+      <workItem from="1641906118557" duration="105000" />
+      <workItem from="1642450494297" duration="677000" />
+      <workItem from="1642452826729" duration="32000" />
+      <workItem from="1642452873728" duration="43000" />
+      <workItem from="1642507235747" duration="98000" />
+      <workItem from="1642508578370" duration="114000" />
+      <workItem from="1644517124951" duration="1603000" />
     </task>
     <servers />
   </component>
