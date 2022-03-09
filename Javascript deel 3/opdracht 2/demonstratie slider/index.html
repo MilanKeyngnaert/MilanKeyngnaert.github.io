@@ -1,0 +1,25 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>Demonstratie slider</title>
+	<link rel="stylesheet" href="styles/styles.css"/>
+</head> 
+<body> 
+<section>
+	<p>Open het console venster, versleep daarna de slider hieronder en kijk welke berichten er komen</p>
+	<input type="range" class="slider" value="50" min="0" max="100" />
+</section>
+<section>
+<p>Een gekleurd blokje :</p>
+<div class="colorDemo" />
+</section>
+<br>
+<p>1) In het script op lijnen 7 en 8.</p>
+<p>2) Blijkbaar hebben Chrome en Safari het mis: change event moet alleen getriggerd worden als de gebruiker de muis loslaat. Om continue updates te krijgen, zou je de input event moeten gebruiken, die live updates zal vastleggen in Firefox, Safari en Chrome, zowel van de muis als van het toetsenbord. Oninput wordt echter niet ondersteund in IE10, dus u kunt het beste de twee event handlers combineren.</p>
+<p>3) In het script, op lijn 11.</p>
+<p>4) Omdat een NodeList object een lijst voor stelt van verwijzingen naar DOM‐tree elementen, die we als een array kunnen beschouwen.</p>
+<br>
+<p>5) Binnen de tags van het element: &lt hier &gt</p>
+<script type="text/javascript" charset="utf-8" src="scripts/code.js"></script>
+</body>
+</html> 
