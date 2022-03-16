@@ -10,9 +10,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -37,17 +37,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Javascript deel 3/opdracht Colorpicker" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Javascript deel 4" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Milan\AppData\Local\GitHubDesktop\app-2.9.4\MilanKeyngnaert.github.io\Javascript deel 4" />
       <recent name="C:\Users\Milan\AppData\Local\GitHubDesktop\app-2.9.4\MilanKeyngnaert.github.io\Javascript deel 3\opdracht Colorpicker" />
       <recent name="C:\Users\Milan\AppData\Local\GitHubDesktop\app-2.9.4\MilanKeyngnaert.github.io\Javascript deel 3" />
       <recent name="C:\Users\Milan\AppData\Local\GitHubDesktop\app-2.9.4\MilanKeyngnaert.github.io\Javascript deel 2" />
       <recent name="C:\Users\Milan\AppData\Local\GitHubDesktop\app-2.9.4\MilanKeyngnaert.github.io\herhalingsoefeningen\Opdracht 2\begin_cocktail_bar" />
-      <recent name="C:\Users\Milan\AppData\Local\GitHubDesktop\app-2.9.4\MilanKeyngnaert.github.io\herhalingsoefeningen\Opdracht 2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Milan\AppData\Local\GitHubDesktop\app-2.9.4\MilanKeyngnaert.github.io\Javascript deel 3\opdracht 1" />
@@ -148,6 +148,8 @@
       <workItem from="1646822791579" duration="4121000" />
       <workItem from="1646833635357" duration="8669000" />
       <workItem from="1646850908073" duration="4323000" />
+      <workItem from="1647360343110" duration="104000" />
+      <workItem from="1647437809849" duration="7811000" />
     </task>
     <servers />
   </component>
