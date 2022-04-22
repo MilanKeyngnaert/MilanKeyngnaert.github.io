@@ -1,0 +1,17 @@
+div {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    border: transparent 5px solid;
+    cursor: default;
+    margin: auto;
+}
+
+img {
+    height: 200px;
+    width: 100px;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    border: white 2px solid;
+    margin: auto;
+}
