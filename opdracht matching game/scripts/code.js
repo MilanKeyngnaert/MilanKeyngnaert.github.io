@@ -104,10 +104,10 @@ const draaiKaart = () => {
 
                 if (global.classGedraaideKaart === kaart.getAttribute("class")) {
                     grid.style.border = "green 5px solid";
-                    setTimeout(verwijderDubbele, 3000);
+                    setTimeout(verwijderDubbele, 1500);
                 } else {
                     grid.style.border = "red 5px solid";
-                    setTimeout(draaiFouteKaarten, 3000);
+                    setTimeout(draaiFouteKaarten, 1500);
                 }
                 grid.setAttribute("class", "unclickable");
                 grid.style.cursor = "wait";
@@ -122,7 +122,7 @@ const draaiKaart = () => {
 
 
 
-
+//**********************************************************************************************************************
 
 
 
@@ -133,11 +133,13 @@ const controle = () => {
     let kaarten = document.getElementsByTagName("img");
     let nextGuessPossible = true;
     for (let q = 0; q < kaarten.length; q++) {
-        if (kaarten[q].getAttribute("src") !== "images/achterkant.png") {
+        let kaart = kaarten[q];
+        if (kaart.getAttribute("src") !== "images/achterkant.png") {
             nextGuessPossible = false;
             q = kaarten.length;
         }
-        if (kaarten[q].offsetWidth !== 104) {
+
+        if (kaart.offsetWidth !== 104) {
             nextGuessPossible = false;
             q = kaarten.length;
         }
@@ -149,7 +151,6 @@ const controle = () => {
         grid.style.cursor = "default";
         global.classGedraaideKaart = "";
     }
-    console.log(global.classGedraaideKaart);
 }
 
 function sleep(ms) {
@@ -157,7 +158,7 @@ function sleep(ms) {
 }
 
 async function kaart3dDraaien(kaart, side) {
-    let draaiFactor = 1;
+    let draaiFactor = 2;
     let breedte = kaart.offsetWidth - 4;
 
     for (let n = breedte; n > 0; n = n - draaiFactor) {
@@ -177,7 +178,7 @@ async function kaart3dDraaien(kaart, side) {
         kaart.style.width = kaart.offsetWidth - 4 + draaiFactor + "px";
         await sleep(1);
     }
-    console.log("controle");
+
     controle();
 }
 
