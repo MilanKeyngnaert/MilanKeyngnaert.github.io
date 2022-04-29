@@ -1,0 +1,111 @@
+#colorpicker {
+    width: 75%;
+}
+
+#grid1 {
+    display: grid;
+    grid-template-columns: auto 15% auto;
+    grid-template-rows: auto;
+    justify-items: center;
+}
+
+#grid2 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+}
+
+.colorDemo {
+    width: 95%;
+    height: 0;
+    padding-bottom: 95%;
+    background-color: black;
+    border: 1px solid black;
+    margin: auto 0;
+
+    grid-row-start: 1;
+    grid-column-start: 2;
+}
+
+.r1 {
+    grid-row-start: 1;
+    grid-column-start: 3;
+}
+
+.r2 {
+    grid-row-start: 2;
+    grid-column-start: 3;
+}
+
+.r3 {
+    grid-row-start: 3;
+    grid-column-start: 3;
+}
+
+#grid2 > p {
+    text-align: center;
+    font-size: 16px;
+}
+
+.slider {
+    grid-column-start: 2;
+    width: 150px;
+}
+
+.f {
+    grid-column-start: 1;
+}
+
+#saveButton {
+    width: 40%;
+    height: min-content;
+    font-size: 13px;
+    min-width: 32px;
+    margin: auto 0;
+
+    grid-row-start: 1;
+    grid-column-start: 3;
+}
+
+@media only screen and (max-width : 950px){
+    #saveButton {
+        font-size: 8px;
+    }
+
+    .slider {
+        width: 100px;
+    }
+
+    #grid2 > p {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width : 600px){
+    .slider {
+        width: 75px;
+    }
+
+    #grid2 > p {
+        font-size: 7px;
+    }
+}
+
+@media only screen and (max-width : 400px){
+    .slider {
+        width: 25px;
+    }
+}
+
+#saves {
+    width: 100%;
+}
+
+.savedColor {
+    display: inline-block;
+    margin: 2px;
+    text-align: right;
+    vertical-align: top;
+    width: 100px;
+    height: 100px;
+}

@@ -44,9 +44,9 @@ const maakKaarten = () => {
 const verdeelKaarten = () => {
     let verdeelstapel = document.getElementsByTagName("img");
     let indexen = [];
+    draaiAlleKaarten();
     for (let k = 0; k < global.AANTAL_KAARTEN * 2; k++) {
         verdeelstapel[k].addEventListener("click", draaiKaart);
-        draaiAlleKaarten();
         let indexZoeken = true;
         while (indexZoeken) {
             let index = Math.floor(Math.random() * verdeelstapel.length);

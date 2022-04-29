@@ -1,22 +1,124 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>M K.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Milan Keyngnaert</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link href="styles/memory.css" rel="stylesheet" type="text/css">
+    <link href="styles/colorpicker.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<h1>M K.</h1>
-    <h2>Personal information section</h2>
-    <ul>
-        <li>M K.</li>
-        <li>ergens en nergens 10</li>
-        <li>04## ## ## 95</li>
-        <li>m#######@hotmail.e&n</li>
-    </ul>
-        <img src="images/foto.jpg" alt="foto" />
-<br>
-<a href="hobbys.html">Hobbies</a>
-<br>
-<a href="likes.html">likes</a>
+
+<header id="home">
+    <p>MK</p>
+    <a class="headerNavButton" href="../index.html">go back</a>
+    <a class="headerNavButton" href="#section1">home</a>
+    <a class="headerNavButton" href="#info">info</a>
+    <a class="headerNavButton" href="#achievements">achievements</a>
+    <a class="headerNavButton" href="#contact">contact</a>
+
+    <a href="https://facebook.com/milan.keyngnaert"><img class="icon" src="images/facebook.png" id="facebook" alt="facebook logo"></a>
+    <a href="https://www.reddit.com/user/drussok"><img class="icon" src="images/reddit.png" id="reddit" alt=" reddit logo"></a>
+    <a href="https://discord.com/users/403168594982338570"><img class="icon" src="images/discord.png" id="discord" alt="discord logo"></a>
+    <a href="https://youtube.com/user/PewDiePie"><img class="icon" src="images/youtube.png" id="youtube" alt="youtube logo"></a>
+</header>
+
+<section id="section1">
+    <div>
+        <h1>Milan</h1>
+        <h1>Keyngnaert</h1>
+        <div></div>
+        <div></div>
+        <p>Facebook<span> | </span>Skype</p>
+        <p>Reddit<span> | </span>Discord</p>
+        <input type="button" value="CONTACT ME" id="contactButton">
+    </div>
+    <img class="imageInSection1" src="images/me.jpg" id="profilePicture" alt="profile picture">
+    <img class="imageInSection1" src="images/VIVES_LogoNewSmile.png" id="vivesLogo" alt="Vives logo">
+</section>
+
+<section id="info">
+    <p>INFO</p>
+    <h2>Personal Information</h2>
+    <div>
+        <ul>
+            <li>I'm Milan Keyngnaert</li>
+            <li>I was born 14th of November 2003</li>
+            <li>I live at Vaux-Sous-Chèvremontstraat 11</li>
+            <a>8970 Poperinge</a>
+            <li>I was born and raised in Belgium</li>
+        </ul>
+    </div>
+</section>
+
+<section id="achievements">
+    <p>ACHIEVEMENTS</p>
+    <h2>My Collection Of Projects</h2>
+    <nav id="collectionNav">
+        <a class="navButton">Memory game</a>
+        <a class="navButton">Colorpicker</a>
+    </nav>
+
+    <div id="collection">
+        <div id="memoryField" class="clickable">
+            <!--keep this empty, this will be filled by scripts/memory.js--->
+        </div>
+        <div id="colorpicker">
+            <!--keep this empty, this will be filled by scripts/colorpicker.js--->
+        </div>
+        <div>
+
+        </div>
+        <div>
+
+        </div>
+
+
+        <aside id="collectionAside">
+            <h2>Memory game</h2>
+            <article>
+                <p>Like most projects here, this was made during my studies in applied informatics. For the course 'Web Development' this project had to be made from scrap.</p>
+                <br>
+                <p>This projects goal was to simulate the game memory. It required us to use to change the source of the images without removing them, while also retaining a way to identify each card.</p>
+            </article>
+            <article>
+                <p>This is another project that was made as an assignment for 'Web Development' during my studies in applied informatics.</p>
+                <br>
+                <p>The point of this project was to practice working with attribute values. This taught us that values, of colors in this example, do not need to be stored in variables.</p>
+            </article>
+            <article>
+
+            </article>
+            <article>
+
+            </article>
+        </aside>
+    </div>
+</section>
+
+<section id="contact">
+    <p>CONTACT</p>
+    <h2>Ways To Contact Me</h2>
+
+</section>
+
+<footer>&copy;Exclusive Web Art - all rights reserved</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" charset="UTF-8" src="scripts/script.js"></script>
+<script type="text/javascript" charset="UTF-8" src="scripts/memory.js"></script>
+<script type="text/javascript" charset="utf-8" src="scripts/colorpicker.js"></script>
 </body>
 </html>

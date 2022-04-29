@@ -1,0 +1,217 @@
+body {
+    background-color: rgb(55, 55, 55);
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: grid;
+    padding: 10px 0;
+    text-align: center;
+    margin: auto;
+    height: 24px;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(40, 40, 40);
+}
+
+header > p {
+    margin: auto 0 auto 0;
+}
+
+.headerNavButton {
+    display: inline;
+    width: auto;
+    line-height: 100%;
+    vertical-align: middle;
+    font-size: 1.8vw;
+}
+
+.headerNavButton, .navButton {
+    text-decoration: none;
+    color: white;
+    margin: auto 0 auto 0;
+    border-bottom: transparent solid 2px;
+}
+
+.headerNavButton:hover, .navButton:hover {
+    border-bottom: gold solid 2px;
+}
+
+.icon {
+    width: 90%;
+    height: auto;
+    margin: auto 0 auto 0;
+}
+
+section {
+    padding: 50px 0 25px 0;
+    height: auto;
+    width: 100%;
+}
+
+section:nth-last-child(2n - 1) {
+    background-color: rgb(60, 60, 60);
+}
+
+#section1 {
+    display: grid;
+    grid-template-columns: 20% 45% 35%;
+    justify-items: center;
+}
+
+.imageInSection1 {
+    width: 90%;
+    height: auto;
+}
+
+section > p, h2 {
+    color: gold;
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+}
+
+#contactButton {
+    background-color: transparent;
+    border-radius: 5px;
+    border: gold 2px solid;
+    color: gold;
+    height: min-content;
+    padding: 7px;
+    width: min-content;
+    font-size: 12px;
+    font-weight: bold;
+    margin: auto 0;
+}
+
+#contactButton:active {
+    background-color: gold;
+    color: black;
+    border: black 2px solid;
+}
+
+#profilePicture {
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+#vivesLogo {
+    grid-column-start: 3;
+    grid-row-start: 1;
+}
+
+#section1 > div {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    display: grid;
+    grid-template-rows: 27.2px 27.2px 15px 15px 10px 10px 100px;
+    margin: auto;
+}
+
+#section1 > div > h1 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    margin: 0;
+    font-size: 20pt;
+    height: min-content;
+}
+
+#section1 > div > p {
+    font-size: 10px;
+    margin: 0;
+}
+
+#section1 > div > p > span{
+    color: gold;
+}
+
+@media only screen and (max-width : 700px){
+    #section1 > div > h1 {
+        font-size: 10pt;
+    }
+
+    #section1 > div {
+        grid-template-rows: 16px 16px 10px 10px 10px 10px 100px;
+    }
+
+    #section1 > div > p {
+        font-size: 8px;
+        margin: 0;
+    }
+
+    #section1 > div > p > span{
+        color: gold;
+    }
+
+    #contactButton {
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width : 450px){
+    #section1 > div > h1 {
+        font-size: 7pt;
+    }
+
+    #section1 > div {
+        grid-template-rows: 10.4px 10.4px 7px 7px 10px 10px 100px;
+    }
+
+    #section1 > div > p {
+        font-size: 5px;
+        margin: 0;
+    }
+
+    #section1 > div > p > span{
+        color: gold;
+    }
+
+    #contactButton {
+        font-size: 6px;
+    }
+}
+
+#section1 > div > h1:nth-child(2) {
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+#section1 > div > div:nth-child(3) {
+    width: 100%;
+    border-bottom: gold 1px solid;
+}
+
+nav {
+    display: grid;
+    margin: 15px auto 25px auto;
+    text-align: center;
+}
+
+#collection {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    height: auto;
+}
+
+#collectionAside > p{
+    width: 100%;
+}
+
+article {
+    padding-top: 15px;
+}
+
+footer {
+    padding: 10px 0;
+    border-top: gold 1px solid;
+    text-align: center;
+}
+
+#contact > div {
+    margin: 500px 0;
+}

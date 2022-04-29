@@ -1,0 +1,66 @@
+#memoryField {
+    background-color: white;
+    display: grid;
+    cursor: default;
+    justify-items: center;
+    width: auto;
+}
+
+#memoryField > img {
+    width: auto;
+    height: auto;
+    max-height: 100px;
+    max-width: 75px;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    margin: 0;
+    border: transparent 2px solid;
+}
+
+.navButton {
+    font-size: 16px;
+}
+
+#collectionAside > h2 {
+    font-size: 1.5em;
+}
+
+#collectionAside > article > p {
+    font-size: 16px;
+    width: 90%;
+    margin: auto;
+}
+
+@media only screen and (max-width : 530px){
+
+    #memoryField > img {
+        width: 50px;
+    }
+
+    #collectionAside > h2 {
+        font-size: 1em;
+    }
+
+    #collectionAside > article > p {
+        font-size: 10px;
+    }
+
+    .navButton {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width : 390px){
+
+    #memoryField > img {
+        width: 30px;
+    }
+
+    #collectionAside > h2 {
+        font-size: 0.6em;
+    }
+
+    #collectionAside > article > p {
+        font-size: 8px;
+    }
+}
