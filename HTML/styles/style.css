@@ -204,6 +204,7 @@ nav {
 
 article {
     padding-top: 15px;
+    height: auto;
 }
 
 footer {
@@ -213,5 +214,6 @@ footer {
 }
 
 #contact > div {
-    margin: 500px 0;
+    display: grid;
 }
+

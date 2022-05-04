@@ -1,23 +1,4 @@
-const setupC = () => {
-    let colorpicker = document.getElementById("colorpicker");
-    colorpicker.innerHTML =
-    "<div id=\"grid1\">\n" +
-    "    <div id=\"grid2\">\n" +
-    "        <p class=\"r1 f\">rood</p>\n" +
-    "        <p class=\"r2 f\">groen</p>\n" +
-    "        <p class=\"r3 f\">blauw</p>\n" +
-    "        <input type=\"range\" class=\"slider\" value=\"0\" min=\"0\" max=\"255\" />\n" +
-    "        <input type=\"range\" class=\"slider\" value=\"0\" min=\"0\" max=\"255\" />\n" +
-    "        <input type=\"range\" class=\"slider\" value=\"0\" min=\"0\" max=\"255\" />\n" +
-    "        <p id=\"red\" class=\"r1\">0</p>\n" +
-    "        <p id=\"green\" class=\"r2\">0</p>\n" +
-    "        <p id=\"blue\" class=\"r3\">0</p>\n" +
-    "    </div>\n" +
-    "    <div class=\"colorDemo\" /></div>\n" +
-    "    <input type=\"button\" id=\"saveButton\" value=\"save\">\n" +
-    "</div>\n" +
-    "<div id=\"saves\"></div>";
-
+const setup = () => {
     let sliders = document.getElementsByClassName("slider");
 
     sliders[0].addEventListener("change", update);
@@ -27,7 +8,7 @@ const setupC = () => {
     sliders[2].addEventListener("change", update);
     sliders[2].addEventListener("input", update);
 
-    let save = document.getElementById("saveButton");
+    let save = document.getElementById("saveButton")
     save.addEventListener("click", saveColor);
 
     restoreFromStorage();
@@ -50,7 +31,7 @@ const update = () => {
 const saveColor = () => {
     let saves = document.getElementById("saves");
     let newColor = document.createElement("div");
-    newColor.setAttribute("class", "savedColor");
+    newColor.setAttribute("class", "colorDemo savedColor");
 
     let sliders = document.getElementsByClassName("slider");
     newColor.style.backgroundColor = "rgb("+ sliders[0].value +","+sliders[1].value+","+sliders[2].value+")";
@@ -77,7 +58,7 @@ const remove = (event) => {
 
 const getColor = (event) => {
     let color = event.target
-    if (color.className === "savedColor") {
+    if (color.className === "colorDemo savedColor") {
         let colorDemos = document.getElementsByClassName("colorDemo")
         colorDemos[0].style.backgroundColor = color.style.backgroundColor
 
@@ -87,6 +68,7 @@ const getColor = (event) => {
         sliders[2].value = color.getAttribute("data-blue")
 
         update();
+
         saveToStorage();
     }
 }
@@ -116,7 +98,7 @@ const restoreFromStorage = () => {
     let colors = JSON.parse(localStorage.getItem("colors"));
     for (let i = 0; i < colors.length; i++) {
         let newColor = document.createElement("div");
-        newColor.setAttribute("class", "savedColor");
+        newColor.setAttribute("class", "colorDemo savedColor");
 
         newColor.style.backgroundColor = colors[i];
 
@@ -133,4 +115,4 @@ const restoreFromStorage = () => {
     update();
 }
 
-window.addEventListener("load", setupC);
+window.addEventListener("load", setup);

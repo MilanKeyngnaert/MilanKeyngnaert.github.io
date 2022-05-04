@@ -186,7 +186,6 @@ async function kaart3dDraaien(kaart, side) {
     }
 
     kaart.style.height = "auto";
-    kaart.style.width = "auto";
 
     controle();
 }

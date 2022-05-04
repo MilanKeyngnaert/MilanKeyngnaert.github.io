@@ -7,6 +7,18 @@ const setup = () => {
     sortNav();
     sortCollection();
     setupButton();
+
+    let collectionChildren = document.getElementById("collection").children;
+    let collectionAsideChildren = document.getElementById("collectionAside").children;
+    for (let i = 1; i < collectionChildren.length; i++) {
+        if (i - 1 === globalA.collectionNavValue) {
+            collectionAsideChildren[i].style.display = "";
+            collectionAsideChildren[i].style.height = "auto";
+        } else {
+            collectionAsideChildren[i].style.display = "none";
+            collectionAsideChildren[i].style.height = "0";
+        }
+    }
 }
 
 const sortHeaderNav = () => {
@@ -91,8 +103,10 @@ const updateCollection = () => {
     for (let i = 1; i < collectionChildren.length; i++) {
         if (i - 1 === globalA.collectionNavValue) {
             collectionAsideChildren[i].style.display = "";
+            collectionAsideChildren[i].style.height = "auto";
         } else {
             collectionAsideChildren[i].style.display = "none";
+            collectionAsideChildren[i].style.height = "0";
         }
     }
 }
